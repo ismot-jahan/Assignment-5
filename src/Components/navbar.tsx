@@ -4,7 +4,7 @@ export default function Navbar() {
       <nav className="flex justify-between container mx-auto items-center p-5">
         
         <div>
-          <img src="/public/assets/logo-text.png" alt="Logo" />
+          <img src="/assets/logo-text.png" alt="Logo" />
         </div>
         
         <div>

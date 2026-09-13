@@ -6,13 +6,16 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-linear -to-tr from-pink-400 to-purple-600 text-xl font-bold text-white">
+              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-linear-to-tr from-pink-400 to-purple-600 text-xl font-bold text-white">
                 DS
               </div>
               <div>
-                <h2 className="text-xl font-bold">Dev <span className="text-pink-500">Stack</span></h2>
+                <h2 className="text-xl font-bold">
+                  Dev <span className="text-pink-500">Stack</span>
+                </h2>
                 <p className="text-sm">
-                  Curated tools, technologies, and resources for developers building modern software.
+                  Curated tools, technologies, and resources for developers
+                  building modern software. 
                 </p>
               </div>
             </div>
@@ -76,7 +79,7 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-cyan-400">
-                Technologies
+                  Technologies
                 </a>
               </li>
               <li>
@@ -93,12 +96,12 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-cyan-400 font-bold">
-                 COMPANY
+                  COMPANY
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-cyan-400">
-                   About
+                  About
                 </a>
               </li>
               <li>
@@ -117,7 +120,7 @@ export default function Footer() {
           {/* Legal */}
           <div className="pb-10">
             <h3 className="mb-4 font-semibold text-white">Legal</h3>
-            <ul className="space-y-2 text-sm ">
+            <ul className="space-y-2 text-sm">
               <li>
                 <a href="#" className="hover:text-cyan-400 font-bold">
                   LEGAL
@@ -125,29 +128,29 @@ export default function Footer() {
               </li>
               <li>
                 <a href="#" className="hover:text-cyan-400">
-                 Privacy Policy
+                  Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#" className="hover:text-cyan-400">
-                 Terms of Service
+                  Terms of Service
                 </a>
               </li>
-        
+              
             </ul>
           </div>
         </div>
-<hr />
+        <hr />
         {/* Bottom Bar */}
         <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-white/10 pt-6 text-sm text-gray-400 md:flex-row">
-          <p>© 2026 DevStack. All rights reserved.</p>
+          <p>© 2026 Dev Stack. All rights reserved.</p>
 
           <div className="flex gap-6">
             <a href="#" className="hover:text-cyan-400">
-              Privacy Policy
+              Privacy
             </a>
             <a href="#" className="hover:text-cyan-400">
-              Terms of Service
+              Terms
             </a>
           </div>
         </div>
