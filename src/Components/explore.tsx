@@ -8,7 +8,9 @@ const getTechData = async (): Promise<TechData[]> => {
 
 export default function ExploreTechnologies() {
   const [techs, setTech] = useState<TechData[]>([]);
+  
   const [selectedTech, setSelectedTech] = useState<TechData | null>(null);
+  console.log (selectedTech)
   const [stack, setStack] = useState<TechData[]>([]);
   const handleAddToStack = (tech: TechData) => {
     const exists = stack.find((item) => item.id === tech.id);
@@ -21,7 +23,7 @@ export default function ExploreTechnologies() {
     setStack([...stack, tech]);
   };
 
-  const handleRemove = (id: number) => {
+  const handleRemove = (id: string) => {
     setStack(stack.filter((item) => item.id !== id));
   };
 
@@ -114,14 +116,7 @@ export default function ExploreTechnologies() {
                 </p>
               </div>
 
-              {/* {stack.length > 0 && (
-                <button
-                  onClick={handleRemoveAll}
-                  className="text-red-500 text-sm"
-                >
-                  Remove All
-                </button>
-              )} */}
+              
             </div>
 
             {stack.length === 0 ? (
